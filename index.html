@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="start-screen" class="screen">
+        <h1>Welcome to the Tic-Tac-Toe game!</h1>
+        <div id="firstlabel">
+        <span>Please, enter the name for <b>Player1 <span class="step">(X)</span></b></span>
+        <label for="player1">
+            <input name="player1" id="player1" required/>
+        </label>
+        </div>
+        <div id="secondlabel">
+        <span>Please, enter the name for <b>Player2 <span class="step">(O)</span></b></span>
+        <label for="player2">
+            <input name="player2" id="player2" required>
+        </label>
+        </div>
+        <button type="submit" id="play_btn" >Play</button>
+    </div>
+    <div class="container">
+        <div class="winner">
+            <h1 class="winner_mess"></h1>
+            <button class="restart">Restart</button>    
+        </div>
+        <div class="box">
+            <div class="cell">
+            </div>
+            <div class="cell">
+            </div>
+            <div class="cell">
+            </div>
+            <div class="cell">
+            </div>
+            <div class="cell">
+            </div>
+            <div class="cell">
+            </div>
+            <div class="cell">
+            </div>
+            <div class="cell">
+            </div>
+            <div class="cell">
+            </div>
+        </div>
+    </div>  
+    
+    <script src="scripts/script.js"></script>
+</body>
+</html>
